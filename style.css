@@ -175,7 +175,7 @@ li:hover a{
     display: flex;
     flex-direction: row;
     height: 41vh;
-    transform: translateX(-300px);
+   
 }
 
 .service_container>h3{
