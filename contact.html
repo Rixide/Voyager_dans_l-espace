@@ -5,8 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>contact</h1>    
+    <div class="container_body">
+        <div class="navigation">
+            <div class="logo">
+                <img src="image/icons8-launch-96 (1).png" alt="logo">
+            </div>
+            <div class="liens">
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="service.html">Nos services</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+       <div class="formulaire_container">
+        <h2>Envoyer nous un message pour nous contacter</h2>
+        <form method="get" action="#">
+           <fieldset>
+            <legend>Formulaire</legend>
+            <table>
+                <tr>
+                    <td><label for="">Nom:</label></td>
+                    <td><input type="text" placeholder="Votre nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Prenom:</label></td>
+                    <td><input type="text" placeholder="Votre prenom"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email:</label></td>
+                    <td><input type="email" placeholder="Votre adresse email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Votre message:</label></td>
+                    <td><textarea name="" id="" cols="53" rows="10"></textarea></td>
+                </tr>
+               <tr><td> <button id="Envoyer">Envoyer</button></td></tr>
+            </table>
+           </fieldset>
+        </form>
+       </div>
+    </div>
+    <script src="javascript.js"></script> 
 </body>
 </html>
