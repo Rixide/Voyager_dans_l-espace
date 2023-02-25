@@ -1,0 +1,164 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container_body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navigation{
+    height: 3rem;
+    width: 100%;
+    background-color: #0825cc9a;
+    position: fixed;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.logo{
+    display: flex;
+    margin-left: 40px;
+}
+
+.logo img{
+    border: 2.5px #fff solid;
+    border-radius:50% ;
+    height: 80%;
+    margin-top: 5px;
+}
+
+.liens{
+    position: absolute;
+    display: flex;
+    right: 15px;
+}
+
+.liens ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    height: 3rem;
+    padding-top: 10px;
+    transition: .3s ease-in;
+}
+li:hover {
+    background-color: rgba(249, 249, 249, 0.441);
+}
+
+li:hover a{
+    font-weight: bolder;
+    letter-spacing: .7px;
+}
+.liens ul li a{
+    margin: 0 15px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-family:Segoe Print;
+    transition: .5s ease-out;
+}
+.body{
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 3rem;
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(15, 23, 177)),url('image/europe-espace.jpg') center/cover no-repeat;
+}
+
+.body .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .content h1{
+    color: #fff;
+    font-size: 4rem;
+    font-family: segoe Print;
+    margin-top: 12.5%;
+}
+
+.body .content button{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.427);
+    color: #fff;
+    font-size: 20px;
+    font-family: segoe print;
+    border:0px #fff solid;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.body .content button:hover{
+    background-color: rgba(255, 255, 255, 0.767);
+    color:#000;
+    letter-spacing: .5px;
+    cursor:pointer;
+}
+
+.info_container{
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;  
+}
+
+.info_container .box_container{
+    height:45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info_container .box_container .box{
+    width: 45%;
+    border: 2.5px #000 solid;
+    margin: 5px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.info_container .box_container .box:hover{
+    background-color:#0825cc67 ;
+    letter-spacing: .2px;
+    border: 3px #fff solid;
+}
+
+.info_container .box_container .box h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: segoe print;
+    
+}
+
+.info_container .box_container .box p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: segoe print;
+}
+
+.info_container .box_container .box li{
+    font-size: 15px;
+    margin-left: 150px;
+    padding-top: 0;
+    font-family: segoe print;
+    list-style:circle;
+}
+
+.info_container .box_container .box li:hover{
+    background-color:#0825cc00;
+}
